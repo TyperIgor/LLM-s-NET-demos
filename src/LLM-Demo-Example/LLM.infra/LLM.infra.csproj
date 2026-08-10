@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Bedrock" Version="4.0.100.7" />
+    <PackageReference Include="AWSSDK.BedrockRuntime" Version="4.0.101" />
+  </ItemGroup>
+
+</Project>
