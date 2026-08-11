@@ -11,4 +11,8 @@
     <PackageReference Include="AWSSDK.BedrockRuntime" Version="4.0.101" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LLM.domain\LLM.domain.csproj" />
+  </ItemGroup>
+
 </Project>

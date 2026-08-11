@@ -1,10 +1,11 @@
 ﻿using System.Text;
 using Amazon.BedrockRuntime;
 using Amazon.BedrockRuntime.Model;
+using LLM.domain.Interfaces;
 
 namespace LLM.infra
 {
-    public class AmazonBedRockImp
+    public class AmazonBedRockImp : IBedrockLLm
     {
         private readonly AmazonBedrockRuntimeClient _client;
 
